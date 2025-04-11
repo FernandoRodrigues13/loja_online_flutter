@@ -59,3 +59,20 @@ android/.idea/
 # -----------------------------
 app.*.symbols
 app.*.map.json
+
+# -----------------------------
+# Assets - versionar só o necessário
+# -----------------------------
+
+# Ignora tudo dentro de assets
+assets/*
+
+# Mantém fontes e ícones
+!assets/fonts/
+!assets/images/
+!assets/images/icons/
+
+# Ignora banners e temporários
+assets/images/banners/
+assets/images/backgrounds/
+assets/temp/
