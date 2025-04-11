@@ -1,0 +1,41 @@
+# Usa o conjunto de regras "strict" do pacote lint
+include: package:lint/strict.yaml
+
+linter:
+  rules:
+    # PERSONALIZAÇÕES OPCIONAIS (você pode ajustar como quiser)
+
+    # Estilo de código
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    always_use_package_imports: true
+    prefer_final_parameters: true
+    prefer_final_locals: true
+    use_key_in_widget_constructors: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+
+    # Organização
+    sort_constructors_first: true
+    always_put_required_named_parameters_first: true
+
+    # Segurança e boas práticas
+    avoid_print: true
+    unnecessary_this: true
+    avoid_unnecessary_containers: true
+    avoid_init_to_null: true
+    avoid_empty_else: true
+    avoid_returning_null_for_future: true
+    avoid_function_literals_in_foreach_calls: true
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  errors:
+    missing_required_param: error
+    missing_return: error
+    dead_code: warning
+    unused_import: warning
+    unnecessary_import: warning

@@ -1,0 +1,29 @@
+name: loja_online
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  cloud_firestore: ^5.6.6
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.5.2
+  firebase_core: ^3.13.0
+  firebase_database: ^11.0.0
+  firebase_storage: ^12.0.0
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  lint: ^2.8.0
+
+flutter:
+  uses-material-design: true

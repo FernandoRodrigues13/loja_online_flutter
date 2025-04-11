@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966235193661",
+    "project_id": "loja-online-ff4b2",
+    "storage_bucket": "loja-online-ff4b2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966235193661:android:bdc4817bf012ace7374554",
+        "android_client_info": {
+          "package_name": "br.com.frfcontroller.loja_online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYjqOjSfokZ4x4CL_XFHQAYZwGDk62j0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
