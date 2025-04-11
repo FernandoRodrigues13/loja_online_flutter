@@ -1,4 +1,6 @@
+# -----------------------------
 # Miscellaneous
+# -----------------------------
 *.class
 *.log
 *.pyc
@@ -12,34 +14,48 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+# -----------------------------
+# IDEs
+# -----------------------------
+
+# VS Code
+# Descomente se quiser ignorar configs do VS Code
+# .vscode/
+
+# IntelliJ / Android Studio
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# -----------------------------
+# Flutter/Dart
+# -----------------------------
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
 
-# Symbolication related
-app.*.symbols
+# -----------------------------
+# Android
+# -----------------------------
+android/.gradle/
+android/captures/
+android/gradle/
+android/.idea/
+*.jks
 
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
+# Android Studio build artifacts
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# -----------------------------
+# Obfuscation / Symbolication
+# -----------------------------
+app.*.symbols
+app.*.map.json
